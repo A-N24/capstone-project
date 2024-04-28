@@ -4,6 +4,10 @@
 
 The Simple Task Management System is a web application designed to help individuals, freelancers, and small teams organize, prioritize, and track their tasks efficiently. Built with Java Spring Boot, this project showcases our proficiency in backend development, database integration, and frontend presentation.
 
+<br>
+
+---
+
 ## Table of Contents
 
 - [Features](#features)
@@ -15,6 +19,10 @@ The Simple Task Management System is a web application designed to help individu
 - [Team Members](#team-members)
 - [Future Improvements](#future-improvements)
 - [License](#license)
+
+<br>
+
+---
 
 ## Features
 
@@ -28,6 +36,10 @@ The Simple Task Management System is a web application designed to help individu
   
 - **Documentation and Testing:** Comprehensive documentation and testing strategy to ensure reliability and functionality.
 
+<br>
+
+---
+
 ## Technologies Used
 
 - **Backend Framework:** Java Spring Boot
@@ -37,6 +49,10 @@ The Simple Task Management System is a web application designed to help individu
 - **Security:** Spring Security
 - **Testing Frameworks:** Mockito
 - **UI Framework:** Bootstrap
+
+<br>
+
+---
 
 ## Installation
 
@@ -57,6 +73,10 @@ The Simple Task Management System is a web application designed to help individu
 
 The application will be accessible at `http://localhost:8080`.
 
+<br>
+
+---
+
 ## Usage
 
 1. **Login:**
@@ -67,24 +87,47 @@ The application will be accessible at `http://localhost:8080`.
 
 3. **User Management**
    - Create users, view existing users, or delete users as needed.
-      
+
+<br>
+
+---
+
 ## Testing
 
-Ensure the functionality of the program using the test system in Spring Boot.
+We ensured the functionality of the program using the test system in Spring Boot.
+
+<br>
+
+---
+
 
 ## Documentation
 
-Review the documentation folders for further details.
+Please review the documentation folders for further details.
+
+<br>
+
+---
 
 ## Team Members
 
 - **Amani Nelson:** Backend Development, Database Integration
 - **Sokheang Lim:** Frontend Development, UI Design
 
+<br>
+
+---
 
 ## Future Improvements
 
-In the future updating the tasks and users is being considered as well as changing the user role for login to also include admin privilege.
+In the future, we are considering the following improvements:
+- Adding update tasks and users.
+- Changing the user role for login to also include admin privilege.
+- Deploying the URL online using a Platform as a Service software (PaaS).
+
+<br>
+
+---
 
 ## License
 
