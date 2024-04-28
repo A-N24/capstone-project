@@ -13,6 +13,7 @@ The Simple Task Management System is a web application designed to help individu
 - [Testing](#testing)
 - [Documentation](#documentation)
 - [Team Members](#team-members)
+- [Future Improvements](#future-improvements)
 - [License](#license)
 
 ## Features
