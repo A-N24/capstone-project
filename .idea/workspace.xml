@@ -4,89 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4dc9ee0-bb1e-4e11-8cbe-9c963397075b" name="Changes" comment="capstone done">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INF653 Capstone Project Proposal.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/TaskManagerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/configuration/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/configuration/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/entity/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/repository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/java/com/example/task_manager/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/resources/templates/tasks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/main/resources/templates/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/src/test/java/com/example/task_manager/TaskManagerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/TaskManagerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/configuration/MvcConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/configuration/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/controller/HomeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/controller/TaskController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/entity/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/repository/TaskRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/service/TaskService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/com/example/task_manager/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/templates/tasks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/target/classes/templates/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/capstone-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capstone-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/java/com/example/simpletaskmanager/SimpleTaskManagerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/java/com/example/simpletaskmanager/controller/TaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/java/com/example/simpletaskmanager/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/java/com/example/simpletaskmanager/entity/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/java/com/example/simpletaskmanager/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/java/com/example/simpletaskmanager/repository/TaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/java/com/example/simpletaskmanager/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/java/com/example/simpletaskmanager/service/TaskService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/java/com/example/simpletaskmanager/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/resources/templates/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/resources/templates/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/resources/templates/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/resources/templates/task.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/main/resources/templates/user.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-task-manager/src/test/java/com/example/simpletaskmanager/SimpleTaskManagerApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="f4dc9ee0-bb1e-4e11-8cbe-9c963397075b" name="Changes" comment="capstone done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,6 +54,31 @@
       <option name="presentableId" value="Default" />
       <updated>1714297738617</updated>
     </task>
+    <task id="LOCAL-00001" summary="capstone done">
+      <option name="closed" value="true" />
+      <created>1714298097077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714298097077</updated>
+    </task>
+    <task id="LOCAL-00002" summary="capstone done">
+      <option name="closed" value="true" />
+      <created>1714298116492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714298116492</updated>
+    </task>
+    <task id="LOCAL-00003" summary="capstone done">
+      <option name="closed" value="true" />
+      <created>1714298131527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714298131527</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
