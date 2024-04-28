@@ -4,8 +4,6 @@
 
 The Simple Task Management System is a web application designed to help individuals, freelancers, and small teams organize, prioritize, and track their tasks efficiently. Built with Java Spring Boot, this project showcases our proficiency in backend development, database integration, and frontend presentation.
 
-<br>
-
 ---
 
 ## Table of Contents
@@ -19,8 +17,6 @@ The Simple Task Management System is a web application designed to help individu
 - [Team Members](#team-members)
 - [Future Improvements](#future-improvements)
 - [License](#license)
-
-<br>
 
 ---
 
@@ -36,8 +32,6 @@ The Simple Task Management System is a web application designed to help individu
   
 - **Documentation and Testing:** Comprehensive documentation and testing strategy to ensure reliability and functionality.
 
-<br>
-
 ---
 
 ## Technologies Used
@@ -49,8 +43,6 @@ The Simple Task Management System is a web application designed to help individu
 - **Security:** Spring Security
 - **Testing Frameworks:** Mockito
 - **UI Framework:** Bootstrap
-
-<br>
 
 ---
 
@@ -73,8 +65,6 @@ The Simple Task Management System is a web application designed to help individu
 
 The application will be accessible at `http://localhost:8080`.
 
-<br>
-
 ---
 
 ## Usage
@@ -88,15 +78,11 @@ The application will be accessible at `http://localhost:8080`.
 3. **User Management**
    - Create users, view existing users, or delete users as needed.
 
-<br>
-
 ---
 
 ## Testing
 
 We ensured the functionality of the program using the test system in Spring Boot.
-
-<br>
 
 ---
 
@@ -105,16 +91,12 @@ We ensured the functionality of the program using the test system in Spring Boot
 
 Please review the documentation folders for further details.
 
-<br>
-
 ---
 
 ## Team Members
 
 - **Amani Nelson:** Backend Development, Database Integration
 - **Sokheang Lim:** Frontend Development, UI Design
-
-<br>
 
 ---
 
@@ -124,8 +106,6 @@ In the future, we are considering the following improvements:
 - Adding update tasks and users.
 - Changing the user role for login to also include admin privilege.
 - Deploying the URL online using a Platform as a Service software (PaaS).
-
-<br>
 
 ---
 
