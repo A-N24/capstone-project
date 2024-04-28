@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Tasks</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function validateUpdateTaskForm() {
+            var id = document.getElementById("updateTaskForm").elements.namedItem("id").value;
+            if (id == null || isNaN(id)) {
+                alert("Invalid task ID");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body class="bg-light">
+<div class="container">
+    <!-- Title Banner -->
+    <header class="bg-primary text-white text-center py-5 mb-4 col-md-9 ml-sm-auto col-lg-10 px-4">
+        <h1 class="text-center">Manage Tasks</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 py-5 bg-white">
+        <!-- Home Card -->
+        <div class="col-md-6 mx-auto mb-5">
+            <div class="card text-center">
+                <div class="card-body">
+                    <a th:href="@{/home}" class="btn btn-link">
+                        <i class="fa fa-home fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="my-3 text-center">Create a New Task</h2>
+
+        <!-- Task Creation Form -->
+        <form action="#" th:action="@{/tasks}" method="post" th:object="${task}" class="mb-5">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" th:field="*{title}" id="title" placeholder="Enter task title" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea th:field="*{description}" id="description" placeholder="Enter task description" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="status">Status</label>
+                <input type="text" th:field="*{status}" id="status" placeholder="Enter task status" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="userId">User ID</label>
+                <input type="number" th:field="*{userId}" id="userId" placeholder="Enter user ID" class="form-control" />
+            </div>
+            <div class="text-center">
+                <input type="submit" value="Create Task" class="btn btn-primary" />
+            </div>
+        </form>
+
+        <!-- Task Update Form -->
+        <form id="updateTaskForm" th:action="@{'/tasks/' + ${taskItem.id}}" method="post"
+              th:object="${taskItem}" onsubmit="return validateUpdateTaskForm()">
+            <input type="hidden" name="_method" value="put" />
+            <div class="form-group">
+                <label for="updateTitle">Title</label>
+                <input type="text" th:field="*{title}" id="updateTitle" placeholder="Enter task title" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="updateDescription">Description</label>
+                <textarea th:field="*{description}" id="updateDescription" placeholder="Enter task description" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="updateStatus">Status</label>
+                <input type="text" th:field="*{status}" id="updateStatus" placeholder="Enter task status" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="updateUserId">User ID</label>
+                <input type="number" th:field="*{userId}" id="updateUserId" placeholder="Enter user ID" class="form-control" />
+            </div>
+            <div class="text-center">
+                <input type="submit" value="Update Task" class="btn btn-primary" />
+            </div>
+        </form>
+
+        <!-- Task Table -->
+        <table class="table table-striped mt-5">
+            <thead>
+            <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Status</th>
+                <th scope="col">User ID</th>
+                <th scope="col">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr th:each="task : ${tasks}">
+                <td th:text="${task.title}"></td>
+                <td th:text="${task.description}"></td>
+                <td th:text="${task.status}"></td>
+                <td th:text="${task.userId}"></td>
+                <td>
+                    <!-- Delete button -->
+                    <form th:action="@{'/tasks/' + ${task.id} + '/delete'}" method="post">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light text-muted text-center col-md-9 ml-sm-auto col-lg-10 px-4">
+        <span>Task Manager: Capstone Project 2024</span>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .btn-primary {
+                color: white;
+            }
+            .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body class="bg-light">
+        <div class="container">
+
+            <!-- Title Banner -->
+            <header class="bg-primary text-white text-center py-5 mb-4 col-md-9 ml-sm-auto col-lg-10 px-4">
+                <h1 class="text-center">Task Manager</h1>
+            </header>
+
+            <!-- Main Content -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 py-5 bg-white">
+                <h2 class="my-3 text-center">What can you do?</h2>
+                <div class="row my-5">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <i class="fa fa-tasks fa-4x mb-3" aria-hidden="true"></i>
+                                <h5 class="card-title">Manage Tasks</h5>
+                                <p class="card-text">Create new tasks, update existing tasks, or delete tasks.</p>
+                                <a th:href="@{/tasks}" class="btn btn-primary">Go to Tasks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <i class="fa fa-users fa-4x mb-3" aria-hidden="true"></i>
+                                <h5 class="card-title">Manage Users</h5>
+                                <p class="card-text">Add new users, update user information, or remove users.</p>
+                                <a th:href="@{/users}" class="btn btn-primary">Go to Users</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <i class="fa fa-sign-out fa-4x mb-3" aria-hidden="true"></i>
+                                <h5 class="card-title">Logout</h5>
+                                <p class="card-text">Click here to logout from your account.</p>
+                                <form th:action="@{/logout}" method="post">
+                                    <button type="submit" class="btn btn-primary">Logout</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Footer -->
+            <footer class="footer mt-auto py-3 bg-light text-muted text-center col-md-9 ml-sm-auto col-lg-10 px-4">
+                <span>Task Manager: Capstone Project 2024</span>
+            </footer>
+
+        </div>
+    </body>
+</html>
