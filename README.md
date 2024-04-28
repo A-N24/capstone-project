@@ -1,4 +1,4 @@
-# INF 653 Capstone Project: Simple Task Management System
+# Simple Task Management System
 
 ## Overview
 
@@ -19,7 +19,7 @@ The Simple Task Management System is a web application designed to help individu
 
 - **User Authentication:** Secure registration and login system with role-based access control.
   
-- **Task Management:** CRUD operations for tasks, allowing users to create, read, update, and delete tasks.
+- **Task Management:** CRUD operations for tasks, allowing users to create, read, and delete tasks.
   
 - **Validation and Error Handling:** Robust validation mechanisms and error messages for data integrity and user guidance.
   
@@ -34,7 +34,7 @@ The Simple Task Management System is a web application designed to help individu
 - **Database:** PostgreSQL
 - **ORM:** Spring Data JPA
 - **Security:** Spring Security
-- **Testing Frameworks:** JUnit, Mockito
+- **Testing Frameworks:** Mockito
 - **UI Framework:** Bootstrap
 
 ## Installation
@@ -58,38 +58,32 @@ The application will be accessible at `http://localhost:8080`.
 
 ## Usage
 
-1. **Registration and Login:**
-    - Register as a new user or log in with existing credentials.
+1. **Login:**
+    - Login using credentials from Web Config and create your own user under **User Management**.
   
 2. **Task Management:**
-    - Create new tasks, view existing tasks, update task details, or delete tasks as needed.
-  
-3. **Profile Management:**
-    - Update user profile details and manage account settings.
+    - Create new tasks, view existing tasks, or delete tasks as needed.
 
+3. **User Management**
+   - Create users, view existing users, or delete users as needed.
+      
 ## Testing
 
-- **Unit Tests:** Ensure individual components work as expected.
-- **Integration Tests:** Ensure seamless interaction between controllers, services, and repositories.
-- **End-to-End Tests:** Simulate user interactions to test all features together.
-
-To run tests, use the following command:
-```bash
-./mvnw test
-```
+Ensure the functionality of the program using the test system in Spring Boot.
 
 ## Documentation
 
-- **Installation Guide:** Step-by-step instructions to clone, configure, and run the application.
-  
-- **User Manual:** Detailed instructions on how to use each feature of the application.
-  
-- **Architecture and Design Documentation:** Overview of the project architecture, database schema design, and key design decisions.
+Review the documentation folders for further details.
 
 ## Team Members
 
 - **Amani Nelson:** Backend Development, Database Integration
 - **Sokheang Lim:** Frontend Development, UI Design
+
+
+## Future Improvements
+
+In the future updating the tasks and users is being considered as well as changing the user role for login to also include admin privilege.
 
 ## License
 
